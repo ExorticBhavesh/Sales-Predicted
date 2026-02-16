@@ -1,73 +1,81 @@
-# Welcome to your Lovable project
+# 📊 Sales-Predicted
 
-## Project info
+This repository contains a **Sales Prediction and Reporting application** that generates **a complete sales analysis and forecast report** based on the provided dataset (as used in CodeAlpha Internship). It helps visualize sales trends, forecast future sales, and provide actionable insights.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🔍 Project Overview
 
-There are several ways of editing your application.
+The **Sales-Predicted** project takes historical sales data and uses statistical and machine learning techniques to:
 
-**Use Lovable**
+- Analyze sales performance
+- Generate meaningful visualizations
+- Predict future sales values
+- Provide a comprehensive sales report
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+This tool can be used by businesses or analysts to understand patterns, forecast revenue, and make data-driven decisions.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📁 Repository Structure
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+📦 Sales-Predicted
+├── 📂 components
+├── 📂 hooks
+├── 📂 lib
+├── 📂 pages
+├── 📂 public
+├── 📂 test
+├── 📜 App.tsx
+├── 📜 index.html
+├── 📜 package.json
+├── 📜 tsconfig.json
+└── 📜 README.md
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+- **components/** – UI components used in project
+- **hooks/** – Custom React hooks
+- **lib/** – Shared libraries and utilities
+- **pages/** – App pages and routes
+- **public/** – Static assets
+- **test/** – Test cases and files
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ Technologies Used
 
-# Step 3: Install the necessary dependencies.
-npm i
+This project uses the following tools and frameworks:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- **React + TypeScript** – Frontend UI
+- **Vite** – Fast development build tool
+- **Tailwind CSS** – Utility first CSS framework
+- **Git + GitHub** – Version control
+
+---
+
+## 🚀 Features
+
+✔ Clean frontend interface for sales reporting  
+✔ Interactive charts and tables  
+✔ Detailed breakdown of historical data  
+✔ Sales forecasting support  
+✔ Easily extensible for new datasets  
+
+---
+
+## 🧠 How to Install & Run Locally
+
+Make sure you have **Node.js and npm/yarn** installed.
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/ExorticBhavesh/Sales-Predicted.git
+
+2. Change directory
+cd Sales-Predicted
+
+3. Install dependencies
+npm install
+
+4. Start app
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
